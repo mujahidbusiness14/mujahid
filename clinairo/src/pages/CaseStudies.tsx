@@ -260,6 +260,13 @@ const CaseStudies = () => {
           <div className="absolute inset-0 bg-white/92 backdrop-blur-md z-0"></div>
 
           <div className="relative z-10 px-6 md:px-12">
+            {/* Centered Heading */}
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <h2 className="text-3xl font-display font-bold text-slate-900 tracking-tight uppercase">
+                How It Works
+              </h2>
+            </div>
+
             {/* THREE-COLUMN FLOW DIAGRAM */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 xl:gap-6 items-center mb-16">
               {/* Column 1 - Patients */}
