@@ -131,16 +131,16 @@ const CaseStudies = () => {
           </div>
 
           {/* PART 1 — VIDEO SECTION */}
-          <div className="mb-12">
-            <h3 className="text-sm font-bold tracking-wider text-brand-600 uppercase mb-4">
+          <div className="mb-12 text-center">
+            <h3 className="text-sm font-bold tracking-wider text-brand-600 uppercase mb-4 text-center">
               Watch Dr. Abubakar Siddique Share His Experience
             </h3>
-            <div className="relative aspect-video rounded-3xl overflow-hidden bg-slate-900 shadow-xl border-4 border-slate-50 group">
+            <div className="relative max-w-2xl mx-auto h-[600px] aspect-[9/16] w-auto rounded-3xl overflow-hidden bg-slate-900 shadow-xl border-4 border-slate-50 group">
               <video 
                 src={caseStudyVideo} 
                 controls 
                 preload="metadata" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 poster="https://images.unsplash.com/photo-1576091160550-217359bc211a?auto=format&fit=crop&q=80&w=1000"
               />
             </div>
