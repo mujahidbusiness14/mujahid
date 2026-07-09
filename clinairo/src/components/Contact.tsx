@@ -23,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus("loading");
     try {
-      await addDoc(collection(db, "contacts"), {
+      await addDoc(collection(db, "consultation_requests"), {
         ...formData,
         createdAt: serverTimestamp()
       });
