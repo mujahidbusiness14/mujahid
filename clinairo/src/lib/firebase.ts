@@ -12,4 +12,4 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+export const db = getFirestore(app, "ai-studio-8e82f9d4-c284-4d8d-b0ab-f35167edd79d");
