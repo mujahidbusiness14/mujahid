@@ -1,0 +1,8 @@
+{
+  "name": "Clinairo",
+  "description": "AI-powered healthcare automation for modern clinics, featuring AI voice agents, appointment booking, and workflow optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
